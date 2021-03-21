@@ -34,7 +34,9 @@
     margin-right: 15%;
     margin-left: 1%;
   }
-  
+  .ABC{
+    color:red;
+  }
   
   .navLinks {
     display: flex;
