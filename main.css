@@ -5,14 +5,7 @@
   scroll-behavior: smooth;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 99.5%;
-  height: fit-content;
-  margin: 0.255 0.25% 0.25% 0.25%;
-}
+
 nav {
   position: fixed;
   width: 100%;
@@ -198,4 +191,15 @@ nav {
 .more .last{
   font-size: 17px;
   padding-bottom: 1em;
+}
+
+/*gallery*/
+#gallery{
+  width: 100%;
+}
+
+@media only screen and (min-width: 760px){
+  #gallery{
+    width: 60%;
+  }
 }
