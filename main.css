@@ -35,6 +35,8 @@ nav {
   margin-left: 1%;
 }
 
+.mySlides {display:none;}
+
 .navLinks {
   display: flex;
   justify-content: space-around;
