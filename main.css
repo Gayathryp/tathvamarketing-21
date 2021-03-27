@@ -154,3 +154,46 @@ nav {
   font-size: medium;
   padding: 0.5em;
 }
+
+#whysponsor{
+  background-color: rgb(166, 192, 241);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.why{ 
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.why h3,h4{
+    color: maroon;
+    padding-top: 1em;
+    font-weight: bolder;
+    
+}
+.why p{
+  font-size: 17px;
+  margin: 0.5em;
+}
+
+.col-sm-3 .reasons{
+  font-size: 17px;
+   color: rgb(129, 2, 2);
+}
+.col-sm-3 p{
+ font-size: 15px;
+ margin: 0.5em;
+
+}
+.more h4{
+  color: rgb(129, 2, 2);
+  
+}
+.more p{
+  font-size: 17px;
+  margin: 0.5em;
+}
+.more .last{
+  font-size: 17px;
+  padding-bottom: 1em;
+}
