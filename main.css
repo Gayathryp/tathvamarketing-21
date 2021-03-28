@@ -3,25 +3,38 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma,
+    Geneva, Verdana, sans-serif;
 }
-
-.aboutcontent{
+#landing {
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#landing h1 {
+  font-size: 6rem;
+  color: white;
+}
+.aboutcontent {
   color: black;
   font-size: medium;
   padding: 0.5em;
 }
 
-#whysponsor{
+#whysponsor {
   background-color: white;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-.why{ 
+.why {
   margin-left: 0px;
   margin-right: 0px;
 }
+
 
 .why h2,h3{
     color: maroon;
@@ -31,12 +44,12 @@
 }
 .why p{
   font-size: 17px;
-  margin: 0.5em;
+  
 }
 
-
-.media{
+.media {
   background-color: white;
+
   color:black;
   font-size: 17px;
 }
@@ -59,18 +72,16 @@
  
   color:white;
   font-size: 17px;
+
 }
-
-
-.more h4{
+.more h4 {
   color: rgb(129, 2, 2);
-  
 }
-.more p{
+.more p {
   font-size: 17px;
   margin: 0.5em;
 }
-.more .last{
+.more .last {
   font-size: 17px;
   padding-bottom: 1em;
 }
@@ -83,12 +94,12 @@
 }
 
 /*gallery*/
-#gallery{
+#gallery {
   width: 100%;
 }
 
-@media only screen and (min-width: 760px){
-  #gallery{
+@media only screen and (min-width: 760px) {
+  #gallery {
     width: 60%;
   }
 }
