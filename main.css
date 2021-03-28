@@ -23,7 +23,7 @@
   margin-right: 0px;
 }
 
-.why h3,h4{
+.why h2,h3{
     color: maroon;
     padding-top: 1em;
     font-weight: bolder;
@@ -38,26 +38,27 @@
 .media{
   background-color: white;
   color:black;
-  font-size: 17.5px;
+  font-size: 17px;
 }
 
 .stall{
-  background-color: rgb(161, 20, 51);
+  
   color:white;
-  font-size: 17.5px;
+  font-size: 17px;
 }
+
 
 .video{
   background-color: white;
   color:black;
-  font-size: 17.5px;
+  font-size: 17px;
 }
 
 
 .shirt{
-  background-color: rgb(161, 20, 51);
+ 
   color:white;
-  font-size: 17.5px;
+  font-size: 17px;
 }
 
 
@@ -72,6 +73,13 @@
 .more .last{
   font-size: 17px;
   padding-bottom: 1em;
+}
+.heading{
+  background-color: lightseagreen;
+  width: 100%;
+  padding: 0.5em;
+  
+  text-align: center;
 }
 
 /*gallery*/
