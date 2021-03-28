@@ -3,84 +3,85 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma,
+    Geneva, Verdana, sans-serif;
 }
-
-.aboutcontent{
+#landing {
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+.aboutcontent {
   color: black;
   font-size: medium;
   padding: 0.5em;
 }
 
-#whysponsor{
+#whysponsor {
   background-color: white;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-.why{ 
+.why {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-.why h3,h4{
-    color: maroon;
-    padding-top: 1em;
-    font-weight: bolder;
-    
+.why h3,
+h4 {
+  color: maroon;
+  padding-top: 1em;
+  font-weight: bolder;
 }
-.why p{
+.why p {
   font-size: 17px;
   margin: 0.5em;
 }
 
-
-.media{
+.media {
   background-color: white;
-  color:black;
+  color: black;
   font-size: 17.5px;
 }
 
-.stall{
+.stall {
   background-color: rgb(161, 20, 51);
-  color:white;
+  color: white;
   font-size: 17.5px;
 }
 
-.video{
+.video {
   background-color: white;
-  color:black;
+  color: black;
   font-size: 17.5px;
 }
 
-
-.shirt{
+.shirt {
   background-color: rgb(161, 20, 51);
-  color:white;
+  color: white;
   font-size: 17.5px;
 }
 
-
-.more h4{
+.more h4 {
   color: rgb(129, 2, 2);
-  
 }
-.more p{
+.more p {
   font-size: 17px;
   margin: 0.5em;
 }
-.more .last{
+.more .last {
   font-size: 17px;
   padding-bottom: 1em;
 }
 
 /*gallery*/
-#gallery{
+#gallery {
   width: 100%;
 }
 
-@media only screen and (min-width: 760px){
-  #gallery{
+@media only screen and (min-width: 760px) {
+  #gallery {
     width: 60%;
   }
 }

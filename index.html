@@ -21,7 +21,7 @@
         
 
         <section id="home">
-            <div>
+            <div id="landing">
 
             </div>
         </section>
@@ -187,8 +187,20 @@
             </div>
           </div>
       </section>
-
-
+<script src="./js/three.js"></script>
+<script src="./js/vanta.globe.min.js"></script>
+<script>
+  VANTA.GLOBE({
+    el: "#landing",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: true,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0xe3ff,
+    backgroundColor: 0xb0b0e
+  })
+</script>
 
     </body>
 </html>
