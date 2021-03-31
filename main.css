@@ -19,13 +19,16 @@
   color: white;
 }
 #about{
-  background-color: lightgrey;
+  background-color: white;
 }
 .aboutcontent {
   color: black;
   font-size: 16px;
   padding: 1em;
   font-weight: 700;
+}
+.abtimg{
+  width:100%;
 }
 
 #whysponsor {
@@ -90,7 +93,7 @@
   padding-bottom: 1em;
 }
 .heading{
-  background-color: lightseagreen;
+  background-color:rgb(107, 159, 202);
   width: 100%;
   padding: 0.3em;
   font-size: 20px;
@@ -104,7 +107,10 @@
   width: 100%;
   
 }
-
+.eventbg{
+  background-color: black;
+  
+}
 @media only screen and (min-width: 760px) {
   #events {
     width: 60%;
