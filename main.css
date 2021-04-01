@@ -40,8 +40,9 @@
 }
 .container{
   width: 100%;
-  background-color: black;
-  margin-left: 0 auto;
+  
+  
+  margin-left:auto;
 }
 @media only screen and (min-width: 760px) {
   #events {
