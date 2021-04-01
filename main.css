@@ -18,18 +18,22 @@
   font-size: 6rem;
   color: white;
 }
+
 #about{
-  background-color: white;
+  background-color: #f6f5f5;
 }
 .aboutcontent {
   color: black;
-  font-size: 16px;
+  font-size: 17px;
   padding: 1em;
+  
   font-weight: 500;
-  font-family: "Roboto";
+  font-family: "Mulish";
 }
 .abtimg{
   width:100%;
+  padding: 3em;
+ 
 }
 
 
@@ -51,88 +55,101 @@
 }
 
 #whysponsor {
-  background-color: white;
+  background-color: #f6f5f5;
   text-align: center;
   padding: 0;
   margin: 0;
 }
 
 .why p{
-  font-size: 17.5px;
-  font-family: "Roboto";
+  font-size: 18px;
+  font-family: "Montserrat";
   font-weight: 500;
   padding: 0.5em;
   margin: 1em;
 }
 .why h3{
   font-weight: bold;
-  font-family: "Roboto";
+  font-family: "Montserrat";
   margin-top: 0.5em;
 }
 
 .media {
   background-color: white; 
   color:black;
-  font-weight: bold;
-  font-size:17.5px;
+  font-family: "Jost";
+  font-size:18px;
 }
 .media h3{
   font-weight: bold;
+  font-family: "Montserrat";
 }
 .stall {
-  background-color: #009DC4; 
-  color:black;
-  font-weight: bold;
-  font-size:17.5px;
+  background-color: #1687a7; 
+  color:white;
+  font-family: "Jost";
+  font-size:18px;
 }
 .stall h3{
   font-weight: bold;
+  font-family: "Montserrat";
 }
 .video{
   background-color: white; 
   color:black;
-  font-weight: bold;
-  font-size:17.5px;
+  font-family: "Jost";
+  font-size:18px;
 }
 .video h3{
   font-weight: bold;
+  font-family: "Montserrat";
 }
 .shirt {
-  background-color: #009DC4; 
-  color:black;
-  font-weight: bold;
-  font-size:17.5px;
+  background-color: #1687a7; 
+  color:white;
+  font-family: "Jost";
+  
+  font-size:18px;
 }
 .shirt h3{
   font-weight: bold;
+  font-family: "Montserrat";
 }
 .more h3 {
   color: black;
   font-weight: bold;
+  font-family: "Montserrat";
 }
 .more p {
   font-size: 17.5px;
   margin: 0.5em;
   font-weight: 500;
+  font-family: "Montserrat";
 }
 .more .last {
   font-size: 17px;
   margin-bottom: 1em;
+  font-family: "Montserrat";
 }
 .heading{
-  background-color:#009DC4;
+  background-color:#1687a7;
   width: 100%;
   padding: 0.5em;
   font-size: 23px;
   font-weight: 1000;
-  
+  color: white;
   text-align: center;
 }
 
-
+#previous{
+  align-items: center;
+}
 
 
 /*contact*/
+#contact{
+  background-color: #f6f5f5;
+}
 
 .our_team{
   width: auto;
