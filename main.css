@@ -6,6 +6,106 @@
   font-family: "Roboto";
     
 }
+
+
+
+
+/* new navbar */
+.navbar {
+  transition: all 0.4s;
+  height: 8.5vh;
+  
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: rgb(223, 223, 223);
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: rgb(187, 187, 187);
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #fff;
+}
+
+
+/* Change navbar styling on small viewports */
+
+
+
+
+
+/*hamburger*/
+
+.navbar button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+
+}
+
+
+
+.line {
+  fill: none;
+  stroke: rgb(255, 255, 255);
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+
+
 #landing {
   height: 100vh;
   width: 100%;
