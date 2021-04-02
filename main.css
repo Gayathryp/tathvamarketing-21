@@ -7,12 +7,13 @@
     
 }
 
+
+
+
 /* new navbar */
-nav{
-  height: 10vh;
-}
 .navbar {
   transition: all 0.4s;
+  height: 8.5vh;
   
 }
 
@@ -103,8 +104,6 @@ nav{
   stroke-dashoffset: -134;
   stroke-width: 6;
 }
-
-
 
 
 #landing {
